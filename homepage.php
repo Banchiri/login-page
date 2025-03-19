@@ -39,6 +39,10 @@ if ($row = $result->fetch_assoc()) {
         
         </p>
         <a href="logout.php">Logout</a>
+        <form action="logout.php" method="post">
+           <button type="submit">Logout</button>
+        </form>
+
     </div>
 </body>
 </html>
