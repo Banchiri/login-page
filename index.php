@@ -15,14 +15,14 @@
         <div class="input-group">
             <i class="fas fa-user"></i>
             <input type="text" name="fName" id="fName" placeholder="First Name" required>
-            <label for="fname">First Name</label>
+            <label for="fName">First Name</label>
 
 
         </div>
         <div class="input-group">
             <i class="fas fa-user"></i>
             <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-            <label for="lname">Last Name</label>
+            <label for="lName">Last Name</label>
 
         </div>
         <div class="input-group">
@@ -32,7 +32,7 @@
         </div>
         <div class="input-group">
             <i class="fas fa-lock"></i>
-            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" name="password" id="password" placeholder="Password" required>
             <label for="password">Password</label>
         </div>
         <input type="submit" class="btn" value="Sign Up" name="signup">
@@ -67,7 +67,7 @@
          </div>
          <div class="input-group">
              <i class="fas fa-lock"></i>
-             <input type="password" id="password" placeholder="Password" required>
+             <input type="password" name= "password" id="password" placeholder="Password" required>
              <label for="password">Password</label>
          </div>
          <p class="recover">
