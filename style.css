@@ -28,6 +28,9 @@ form{
     padding: 1.3rem;
     margin-bottom:0.4rem;
 }
+#signup{
+    display: none;
+}
 input{
     color: inherit;
     width: 100%;
